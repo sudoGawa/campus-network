@@ -1,0 +1,4 @@
+WiFi名称：iHBUT
+学号：
+密码：
+网站链接：http://202.114.177.115/srun_portal_pc?ac_id=1&theme=pro

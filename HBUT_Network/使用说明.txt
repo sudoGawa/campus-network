@@ -1,0 +1,23 @@
+0.（开发选项，直接使用可以忽略）在当前脚本的IDE终端下输入以下这行命令，可以打包到指定的安装路径，且启动时可避免弹窗：
+
+	pyinstaller --onefile --noconsole --distpath="D:\Pycharm\Pycharm Projects\pythonLearning\HBUT_Network （你的目标路径）" autoNetwork.py（当前脚本名称） 
+
+1.在“校园网配置文件”中输入自己的iHBUT校园网学号和密码。
+
+2.使用注册表编辑器添加开机自启动功能：
+
+	通过修改注册表可以实现开机启动程序的配置。
+
+	按下 Win + R 键，输入 regedit，然后按回车。
+
+	导航至以下路径：HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run。
+
+	在右侧窗格中右键选择“新建” > “字符串值”，输入一个名称（如程序名称）。
+
+	双击该字符串值，在“数值数据”栏中输入目标 .exe 文件（autoNetwork.exe）的完整路径，然后点击“确定”。
+
+	重启计算机后配置生效。
+
+3.目前仅支持edge或Chrome浏览器驱动，确保这些浏览器安装在你的电脑里。
+
+4.有问题可联系-QQ：2787493907
